@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment files (except production)
+.env
+.env.local
+.env.development.local
+
+# Django dev database
+db.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs and coverage
+*.log
+.coverage
+htmlcov/

@@ -1,0 +1,7 @@
+# Ignore everything
+**
+
+# But explicitly allow these
+!docker-compose.yml
+!README.md
+!LICENSE
