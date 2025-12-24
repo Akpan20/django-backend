@@ -102,7 +102,8 @@ const api = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$axio
     baseURL: ("TURBOPACK compile-time value", "http://localhost:8000/api") || "http://localhost:8000/api",
     headers: {
         "Content-Type": "application/json"
-    }
+    },
+    withCredentials: true
 });
 api.interceptors.request.use((config)=>{
     if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
